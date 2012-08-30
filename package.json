@@ -1,0 +1,25 @@
+{
+  "name": "gimme-a-pdf",
+  "version": "0.0.0",
+  "description": "Monitor a folder for a JSON file that contains a URL. Fetch the page and generate a PDF for it.",
+  "main": "gimme-a-pdf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ukabu/gimme-a-pdf.git"
+  },
+  "keywords": [
+    "URL",
+    "PDF",
+    "PhantomJS",
+    "print"
+  ],
+  "author": "Ukabu",
+  "license": "BSD",
+  "dependencies": {
+    "glob": ">=3",
+    "minimatch": "*"
+  }
+}
